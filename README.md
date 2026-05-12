@@ -1,19 +1,14 @@
-# AI転職コンパス 🚀
+# AI転職コンパス
 
-AI時代を勝ち抜く転職・副業・キャリアの羅針盤。
+AI転職、AI副業、フリーランス独立、AIスクール、退職導線をまとめた収益特化サイト。
 
-🌐 **サイト**: https://musclelove-777.github.io/ai-tenshoku-compass/
+URL: https://musclelove-777.github.io/ai-tenshoku-compass/
 
-## 特徴
-- 主要転職エージェント・フリーランス・スキル習得・退職代行サービス25+を掲載
-- スケジュールエージェント（Claude）が毎日JST 09:23に記事3本を自動生成
-- IndexNow対応で即時インデックス通知
-- GitHub Pages（workflow mode）で完全無料運用
+## 収益設計
 
-## 姉妹サイト
-- 🧭 [AI副業コンパス](https://musclelove-777.github.io/ai-fukugyo-compass/) - AI副業ツール徹底比較
+- 転職エージェント相談
+- AI/ITフリーランス案件相談
+- AIスクール/講座
+- 退職代行/退職後の転職導線
 
-## 運営
-**MuscleLove** が運営する自動更新メディアネットワークの一部。
-- X: [@MuscleGirlLove7](https://x.com/MuscleGirlLove7)
-- Patreon: [MuscleLove](https://www.patreon.com/MuscleLove)
+トップページには診断フォームと月100万円の逆算計算を置き、読者の状態に合わせて高単価導線へ振り分ける。
