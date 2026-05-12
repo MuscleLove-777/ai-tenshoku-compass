@@ -94,10 +94,20 @@ function withUtm(url, offer) {
   }
 }
 
+function resolveOfferUrl(anchor) {
+  const offer = anchor.dataset.offer;
+  const map = window.AI_TENSHOKU_OFFERS || {};
+  if (!offer || !map[offer]?.url) return anchor.href;
+  return map[offer].url;
+}
+
 function recordOfferClick(anchor) {
   const offer = anchor.dataset.offer || anchor.hostname || "unknown";
+  const offerMeta = (window.AI_TENSHOKU_OFFERS || {})[offer] || {};
   const payload = {
     offer,
+    offerType: offerMeta.type || "unknown",
+    offerStatus: offerMeta.status || "unknown",
     href: anchor.href,
     page: location.pathname,
     text: anchor.textContent.trim().slice(0, 80),
@@ -113,7 +123,7 @@ function wireOfferLinks(root) {
   root.querySelectorAll("a[href^='http']").forEach((anchor) => {
     if (anchor.dataset.tracked === "true") return;
     const offer = anchor.dataset.offer || anchor.hostname;
-    anchor.href = withUtm(anchor.href, offer);
+    anchor.href = withUtm(resolveOfferUrl(anchor), offer);
     anchor.dataset.tracked = "true";
     anchor.addEventListener("click", () => recordOfferClick(anchor));
   });
