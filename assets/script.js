@@ -84,13 +84,14 @@ document.addEventListener("DOMContentLoaded", () => {
 function withUtm(url, offer) {
   try {
     const parsed = new URL(url, window.location.href);
-    if (parsed.hostname.includes("musclelove-777.github.io")) return parsed.toString();
+    if (!["http:", "https:"].includes(parsed.protocol)) return "#";
+    if (parsed.hostname === "musclelove-777.github.io") return parsed.toString();
     parsed.searchParams.set("utm_source", "ai-tenshoku-compass");
     parsed.searchParams.set("utm_medium", "affiliate_click");
     parsed.searchParams.set("utm_campaign", offer || "career_offer");
     return parsed.toString();
   } catch {
-    return url;
+    return "#";
   }
 }
 
