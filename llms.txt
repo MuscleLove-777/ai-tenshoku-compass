@@ -1,0 +1,18 @@
+# AIキャリア年収診断 | AI転職コンパス
+
+> AI時代の転職・副業・フリーランス独立を年収アップ目線で診断。AIエンジニア、データ分析、生成AI活用職、未経験からの学習ルートまで、収益化に近い選択肢を比較します。
+
+## Main Pages
+
+- [ai tenshoku compass](https://musclelove-777.github.io/ai-tenshoku-compass/): main page of AIキャリア年収診断 | AI転職コンパス.
+
+## Articles (most recent)
+
+- [ai tenshoku agent comparison.html](https://musclelove-777.github.io/ai-tenshoku-compass/articles/ai-tenshoku-agent-comparison.html): article on AIキャリア年収診断 | AI転職コンパス.
+- [ai career roadmap.html](https://musclelove-777.github.io/ai-tenshoku-compass/articles/ai-career-roadmap.html): article on AIキャリア年収診断 | AI転職コンパス.
+- [generative ai side hustle.html](https://musclelove-777.github.io/ai-tenshoku-compass/articles/generative-ai-side-hustle.html): article on AIキャリア年収診断 | AI転職コンパス.
+
+## About this file
+
+This llms.txt follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
+Generated automatically from sitemap.xml. Source repository: https://github.com/MuscleLove-777/ai-tenshoku-compass
